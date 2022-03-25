@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/todos
+Content-Type: application/json
+
+{
+  "title": "Task 2",
+  "completed": false,
+  "body": "This is the 2nd task"
+}
+
+###
+GET http://localhost:8080/api/todos
+
